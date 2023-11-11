@@ -1,0 +1,130 @@
+/* Google Font Use */
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+}
+/* Global Css */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+    max-width: 1260px;
+   margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header Css */
+img.img-fluid.mt-2.mb-2 {
+    height: 175px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+}
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+.dropdown-item:hover a{
+    display: block !important;
+    color: #377dff;
+}
+.dropdown-menu{
+    background-color: #377dff;
+}
+.dropdown-item{
+    color:black;
+}
+.navbar-light .navbar-toggler-icon {
+	/* background: red !important; */
+    color: white !important;
+}
+a.nav-link.active.me-4.arif.text-info {
+    margin-left: 100px;
+}
+/* Slider part */
+.carousel-item img {
+    height: 650px;
+}
+.row>* {
+     padding-right: calc(var(--bs-gutter-x) * .0); 
+    padding-left: calc(var(--bs-gutter-x) * .0); 
+}
+
+/* Letest Notice Section Start */
+.notice i.bi.bi-arrow-right-circle-fill.text-primary {
+    margin-left: 80px;
+}
+
+.notice{
+    line-height: 0.5 !important;
+    border:2px solid green;
+}
+/* End Letest Notice End */
+
+/* About CSS */
+#about {
+  background-color: #c3f0f0 !important;
+}
+#about .About p {
+    line-height: 34px;
+}
+
+/* GO to Top Button */
+
+/* End Go to Top Button */
+
+
+/* Gallary Slider */
+.owl-carousel .item img {
+    height: 250px;
+    width: 188px;
+}
+.prime .carousel-item img{
+    display: flex !important;
+}
+
+/* .teachers{
+    background-color: #ece2e2 !important ;
+  } */
+
+/* Contact Section Start*/
+.section-padding {
+    margin-top: 162px;
+}
+.contact {
+    background-color: #c3f0f0 !important;
+  }
+  /* .maps{
+    background-color: #ece2e2 !important;
+  } */
+
+
+  /* Footer CSS Link */
+
+.d-flex.justify-content-around.flex-column.flex-sm-row.flex-wrap.align-content {
+    align-content: space-around !important;
+}
+.mt-5.footerr {
+    line-height: 33px;
+}
+#gallery img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(2.0);
+  z-index: 99;
+  width: 100%;
+    height: auto;
+}

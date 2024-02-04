@@ -120,11 +120,4 @@ a.nav-link.active.me-4.arif.text-info {
 .mt-5.footerr {
     line-height: 33px;
 }
-#gallery img:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(2.0);
-  z-index: 99;
-  width: 100%;
-    height: auto;
-}
+
